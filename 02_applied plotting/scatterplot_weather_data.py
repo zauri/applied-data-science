@@ -5,7 +5,7 @@ import matplotlib.ticker as ticker
 import numpy as np
 #%matplotlib notebook
 
-wt = pd.read_csv('weather_data_ffm.csv')
+wt = pd.read_csv('data/weather_data_ffm.csv')
     
 # Convert date to datetime
 wt['Date'] = pd.to_datetime(wt['Date'], format='%Y-%m-%d')
